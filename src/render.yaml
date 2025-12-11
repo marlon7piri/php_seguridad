@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: php-seguridad
+    name: php_seguridad
     env: php
     plan: free
     buildCommand: "composer install"
