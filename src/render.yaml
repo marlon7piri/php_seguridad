@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: php-seguridad
+    env: php
+    plan: free
+    buildCommand: "composer install"
+    startCommand: "php -S 0.0.0.0:10000 -t public_html"
+    branch: main
+    autoDeploy: true
